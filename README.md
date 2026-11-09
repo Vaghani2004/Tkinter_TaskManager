@@ -4,9 +4,9 @@ A standalone desktop GUI application developed using Python's standard **Tkinter
 
 ## 🎯 Aim & Learning Objectives
 
-**Aim:** To develop a desktop GUI application using Python Tkinter that demonstrates various GUI programming concepts and provides an efficient task management system with database integration.
+**Aim :** To develop a desktop GUI application using Python Tkinter that demonstrates various GUI programming concepts and provides an efficient task management system with database integration.
 
-The main learning objectives of this project are:
+The main learning objectives of this project are :-
 
 - **Responsive Layout Management:** Implement responsive GUI layouts using `grid()` and `pack()` geometry managers with column weight configuration inside Tkinter containers.
 
