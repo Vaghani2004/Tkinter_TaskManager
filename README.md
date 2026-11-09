@@ -1,17 +1,24 @@
 # 📚 Study Task Tracker – Tkinter Mini Project
 
-A standalone desktop GUI application built with Python's standard [tkinter](https://docs.python.org/3/library/tkinter.html) and [tkinter.ttk](https://docs.python.org/3/library/tkinter.ttk.html) libraries. Designed as a practical mini-project to demonstrate modern desktop GUI layout management, two-way variable binding, interactive tabular views, keyboard shortcuts, and JSON file persistence.
+A standalone desktop GUI application developed using Python's standard **Tkinter** and **ttk (Themed Tkinter)** libraries. This project demonstrates practical concepts of Python GUI development, including responsive layout management, two-way data binding, interactive tabular data display, keyboard shortcuts, CRUD operations, and JSON file handling.
 
-## Aim & Learning Objectives
+## 🎯 Aim & Learning Objectives
 
-Develop a desktop GUI application in Python using [Tkinter](https://docs.python.org/3/library/tk.html) that demonstrates:
+**Aim:** To develop a desktop GUI application using Python Tkinter that demonstrates the implementation of various GUI programming concepts and task management operations.
 
-* **Responsive Layout Management:** Combining `grid()` and `pack()` geometry managers with column weight configuration (`grid_columnconfigure`) inside [ttk.Frame and ttk.LabelFrame](https://docs.python.org/3/library/tkinter.ttk.html) containers.
-* **Two-Way Data Binding:** Synchronizing form inputs and dynamic status bar messages using `tk.StringVar()` variable classes from [tkinter](https://docs.python.org/3/library/tkinter.html).
-* **Scrollable Tabular Display:** Rendering multi-column task records with `ttk.Treeview` paired with a vertical `ttk.Scrollbar` from [tkinter.ttk](https://docs.python.org/3/library/tkinter.ttk.html).
-* **Full CRUD Workflow:** Supporting task creation (**Create**), tabular inspection (**Read**), completion status toggling (**Update**), and single or bulk row removal (**Delete**).
-* **Validation & Modal Alerts:** Guarding against empty submissions and accidental data loss using `tkinter.messagebox` prompts from [Tkinter Dialogs](https://docs.python.org/3/library/dialog.html).
-* **Structured JSON Persistence:** Exporting and importing task lists using native OS file pickers via `tkinter.filedialog` from [Tkinter Dialogs](https://docs.python.org/3/library/dialog.html).
+The main learning objectives of this project are:
+
+- **Responsive Layout Management:** Implement responsive GUI layouts by combining `grid()` and `pack()` geometry managers with column weight configuration using `grid_columnconfigure()` inside `ttk.Frame` and `ttk.LabelFrame` containers.
+
+- **Two-Way Data Binding:** Use `tk.StringVar()` to establish data binding between form input fields and application variables, allowing dynamic updates to the user interface, including status bar messages.
+
+- **Scrollable Tabular Display:** Display multiple task records in a structured table using `ttk.Treeview` and integrate a vertical `ttk.Scrollbar` for smooth navigation through task records.
+
+- **CRUD Operations:** Implement complete Create, Read, Update, and Delete (CRUD) functionality to add new tasks, display existing tasks, update task completion status, and delete individual or all task records.
+
+- **Input Validation and Modal Alerts:** Validate user inputs to prevent empty task submissions and use `tkinter.messagebox` to display warning, information, and confirmation messages.
+
+- **Structured JSON File Handling:** Implement JSON file import and export functionality using Python's `json` module and native file selection dialogs provided by `tkinter.filedialog`.
 
 ## ✨ Features
 
@@ -85,6 +92,7 @@ pyinstaller --onefile --windowed tkinter_TaskManager.py
 - Store tasks in an SQLite database.
 - Add task editing functionality.
 - Improve the interface with additional themes and customization.
+
 
 
 
