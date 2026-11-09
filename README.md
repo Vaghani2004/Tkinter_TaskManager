@@ -13,6 +13,20 @@ Develop a desktop GUI application in Python using [Tkinter](https://docs.python.
 * **Validation & Modal Alerts:** Guarding against empty submissions and accidental data loss using `tkinter.messagebox` prompts from [Tkinter Dialogs](https://docs.python.org/3/library/dialog.html).
 * **Structured JSON Persistence:** Exporting and importing task lists using native OS file pickers via `tkinter.filedialog` from [Tkinter Dialogs](https://docs.python.org/3/library/dialog.html).
 
+🛠️ Technologies Used
+
+Programming Language: Python
+
+GUI Framework: Tkinter
+
+UI Components: ttk (Themed Tkinter)
+
+Data Storage: JSON
+
+Date and Time: datetime
+
+Python Modules: json, tkinter, datetime
+
 ## Key Features & Controls
 
 | Feature / Control | Implementation Component | Description |
@@ -34,13 +48,13 @@ Develop a desktop GUI application in Python using [Tkinter](https://docs.python.
 
 ## Getting Started
 
-### Option 1: Run the Windows Executable (No Python Required)
+### Option 1 : Run the Windows Executable (No Python Required)
 
 1. Open the repository's **Releases** section (`v1.0.0`) on GitHub.
 2. Download **`tkinter_learning_suite.exe`** from the **Assets** list.
 3. Double-click `tkinter_learning_suite.exe` to launch the Study Task Tracker on Windows.
 
-### Option 2: Run from Python Source
+### Option 2 : Run from Python Source
 
 1. Clone this repository and navigate into the project folder:
 
@@ -52,20 +66,17 @@ Develop a desktop GUI application in Python using [Tkinter](https://docs.python.
 3. Run the application with Python 3 (no third-party `pip` packages are required to run the script):
    
    ```bash
-   python tkinter_learning_suite.py
+   python tkinter_TaskManager.py
    ```
 
 ## Building a Standalone Executable
 
-To package `tkinter_learning_suite.py` into a single-file executable using [PyInstaller](https://pyinstaller.org/en/stable/usage.html):
+To package `tkinter_TaskManager.py` into a single-file executable using [PyInstaller](https://pyinstaller.org/en/stable/usage.html):
 
 ```bash
 pip install pyinstaller
 
-pyinstaller --onefile --windowed tkinter_learning_suite.py
+pyinstaller --onefile --windowed tkinter_TaskManager.py
 ```
-
-The compiled executable will be generated inside the `dist/` directory (`dist/tkinter_learning_suite.exe`).
-
 
 
