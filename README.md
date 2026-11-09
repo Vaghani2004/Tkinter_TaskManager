@@ -43,12 +43,14 @@ Develop a desktop GUI application in Python using [Tkinter](https://docs.python.
 ### Option 2: Run from Python Source
 
 1. Clone this repository and navigate into the project folder:
+
    ```bash
    git clone https://github.com/Vaghnai123/Tinker_TaskManager.git
    
    cd Tinker_TaskManager
    ```
-2. Run the application with Python 3 (no third-party `pip` packages are required to run the script):
+3. Run the application with Python 3 (no third-party `pip` packages are required to run the script):
+   
    ```bash
    python tkinter_learning_suite.py
    ```
