@@ -36,7 +36,7 @@ Develop a desktop GUI application in Python using [Tkinter](https://docs.python.
 
 ### Option 1: Run the Windows Executable (No Python Required)
 
-1. Open the repository's **Releases** section (`v1.0.0`) on GitHub ([Linking to Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases)).
+1. Open the repository's **Releases** section (`v1.0.0`) on GitHub.
 2. Download **`tkinter_learning_suite.exe`** from the **Assets** list.
 3. Double-click `tkinter_learning_suite.exe` to launch the Study Task Tracker on Windows.
 
@@ -45,6 +45,7 @@ Develop a desktop GUI application in Python using [Tkinter](https://docs.python.
 1. Clone this repository and navigate into the project folder:
    ```bash
    git clone https://github.com/Vaghnai123/Tinker_TaskManager.git
+   
    cd Tinker_TaskManager
    ```
 2. Run the application with Python 3 (no third-party `pip` packages are required to run the script):
@@ -58,24 +59,11 @@ To package `tkinter_learning_suite.py` into a single-file executable using [PyIn
 
 ```bash
 pip install pyinstaller
+
 pyinstaller --onefile --windowed tkinter_learning_suite.py
 ```
 
 The compiled executable will be generated inside the `dist/` directory (`dist/tkinter_learning_suite.exe`).
 
-## JSON Data Format
 
-Tasks exported via **Export JSON...** are stored as a clean array of objects that can be re-imported at any time:
-
-```json
-[
-  {
-    "title": "Practice StringVar two-way binding",
-    "category": "Events",
-    "priority": "High",
-    "status": "Completed",
-    "created_at": "2026-11-09 11:52"
-  }
-]
-```
 
