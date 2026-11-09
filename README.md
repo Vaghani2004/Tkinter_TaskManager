@@ -13,40 +13,39 @@ Develop a desktop GUI application in Python using [Tkinter](https://docs.python.
 * **Validation & Modal Alerts:** Guarding against empty submissions and accidental data loss using `tkinter.messagebox` prompts from [Tkinter Dialogs](https://docs.python.org/3/library/dialog.html).
 * **Structured JSON Persistence:** Exporting and importing task lists using native OS file pickers via `tkinter.filedialog` from [Tkinter Dialogs](https://docs.python.org/3/library/dialog.html).
 
-🛠️ Technologies Used
+## ✨ Features
 
-Programming Language: Python
+- **Add Tasks:** Create new study tasks with a title, category, and priority.
+- **View Tasks:** Display all tasks in a structured table using `ttk.Treeview`.
+- **Update Status:** Mark tasks as Completed or Pending.
+- **Delete Tasks:** Delete selected tasks from the task list.
+- **Clear All Tasks:** Remove all tasks with a confirmation message.
+- **Import JSON:** Load previously saved tasks from a JSON file.
+- **Export JSON:** Save task records into a JSON file.
+- **Input Validation:** Prevent adding tasks without a title.
+- **Scrollable Table:** Navigate through tasks using a scrollbar.
+- **Keyboard Shortcuts:** Perform common operations using keyboard shortcuts.
+- **Status Bar:** Display messages about application activities.
 
-GUI Framework: Tkinter
+## 🛠️ Technologies Used
 
-UI Components: ttk (Themed Tkinter)
+- **Programming Language:** Python
+- **GUI Framework:** Tkinter
+- **UI Components:** ttk (Themed Tkinter)
+- **Data Storage:** JSON
+- **Python Modules:** json, tkinter, datetime
 
-Data Storage: JSON
+## ⌨️ Keyboard Shortcuts
 
-Date and Time: datetime
+| Shortcut | Action |
+|---|---|
+| Enter | Add a new task |
+| Delete | Delete the selected task |
+| Ctrl + Q | Exit the application |
+| Double Click | Toggle task completion status |
 
-Python Modules: json, tkinter, datetime
 
-## Key Features & Controls
-
-| Feature / Control | Implementation Component | Description |
-| :--- | :--- | :--- |
-| **Add Study Task** | `ttk.Entry`, `ttk.Combobox`, `ttk.Button` | Captures task title, topic category (`Widgets`, `Layouts`, `Events`, `Canvas`, `Dialogs`), and priority (`Low`, `Medium`, `High`) using [tkinter.ttk](https://docs.python.org/3/library/tkinter.ttk.html) widgets |
-| **Interactive Task Table** | `ttk.Treeview` & `ttk.Scrollbar` | Displays `Task Title`, `Category`, `Priority`, `Status`, and `Created At` timestamps with vertical scrolling via [tkinter.ttk](https://docs.python.org/3/library/tkinter.ttk.html) |
-| **Toggle Completion** | `<Double-1>` event & `Toggle Completed` button | Switches the selected task row between `Pending` and `Completed` states using [tkinter](https://docs.python.org/3/library/tkinter.html) event bindings |
-| **Delete & Clear Tasks** | `<Delete>` key, `Delete Selected`, `Clear All` | Removes a single highlighted row or clears the entire table after a confirmation dialog via [Tkinter Dialogs](https://docs.python.org/3/library/dialog.html) |
-| **JSON Import / Export** | `filedialog.asksaveasfilename` & `askopenfilename` | Saves current tasks to a formatted `.json` file or loads external `.json` task lists using [Tkinter Dialogs](https://docs.python.org/3/library/dialog.html) |
-
-## Keyboard Shortcuts
-
-| Shortcut Key | Action |
-| :--- | :--- |
-| `Enter` (`<Return>`) | Add the current task from the input form |
-| `Double-Click` (`<Double-1>`) | Toggle the selected task status between `Pending` and `Completed` |
-| `Delete` (`<Delete>`) | Delete the currently selected task row |
-| `Ctrl + Q` (`<Control-q>`) | Exit the application |
-
-## Getting Started
+## Installation and Setup
 
 ### Option 1 : Run the Windows Executable (No Python Required)
 
@@ -78,5 +77,20 @@ pip install pyinstaller
 
 pyinstaller --onefile --windowed tkinter_TaskManager.py
 ```
+
+## 🔮 Future Improvements
+
+- Add task search and filtering functionality.
+- Add task deadlines and reminders.
+- Store tasks in an SQLite database.
+- Add task editing functionality.
+- Improve the interface with additional themes and customization.
+
+
+
+
+
+
+
 
 
