@@ -1,4 +1,4 @@
-# Study Task Tracker — Tkinter CRUD Application
+# 📚 Study Task Tracker – Tkinter Mini Project
 
 A standalone desktop GUI application built with Python's standard [tkinter](https://docs.python.org/3/library/tkinter.html) and [tkinter.ttk](https://docs.python.org/3/library/tkinter.ttk.html) libraries. Designed as a practical mini-project to demonstrate modern desktop GUI layout management, two-way variable binding, interactive tabular views, keyboard shortcuts, and JSON file persistence.
 
@@ -62,7 +62,7 @@ Develop a desktop GUI application in Python using [Tkinter](https://docs.python.
    
    cd Tinker_TaskManager
    ```
-3. Run the application with Python 3 (no third-party `pip` packages are required to run the script):
+3. Run the application (no third-party `pip` packages are required to run the script):
    
    ```bash
    python tkinter_TaskManager.py
@@ -70,7 +70,7 @@ Develop a desktop GUI application in Python using [Tkinter](https://docs.python.
 
 ## Building a Standalone Executable
 
-To package `tkinter_TaskManager.py` into a single-file executable using [PyInstaller](https://pyinstaller.org/en/stable/usage.html):
+To package `tkinter_TaskManager.py` into a single-file executable :-
 
 ```bash
 pip install pyinstaller
@@ -85,9 +85,6 @@ pyinstaller --onefile --windowed tkinter_TaskManager.py
 - Store tasks in an SQLite database.
 - Add task editing functionality.
 - Improve the interface with additional themes and customization.
-
-
-
 
 
 
