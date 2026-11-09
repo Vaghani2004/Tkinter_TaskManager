@@ -156,7 +156,7 @@ The generated executable will be available inside the `dist` directory.
 
 **Vaghani123**
 
-GitHub Repository: https://github.com/Vaghnai123/Tinker_TaskManager
+GitHub Repository: https://github.com/Vaghani2004/Tinker_TaskManager
 
 ---
 
